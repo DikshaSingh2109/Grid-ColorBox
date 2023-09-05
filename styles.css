@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 800px;
+}
+html {
+  background-color: black;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+h1 {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: "Libre Baskerville", serif;
+  
+}
+.green {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: rgba(42, 227, 39, 0.991);
+}
+.orange {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: orangered;
+}
+.purple {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: purple;
+}
+.pink {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: rgb(236, 11, 48);
+}
